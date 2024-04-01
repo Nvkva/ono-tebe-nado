@@ -25,9 +25,16 @@
 }
 
 .header__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex: 0 0 148px;
     width: 148px;
     height: 105px;
+}
+
+.header__logo-image {
+    height: 100%;
 }
 
 .header__address {
@@ -239,8 +246,8 @@
 }
 
 .about__logo-image {
-    width: 142px;
-    height: 112px;
+    width: 149px;
+    height: 114px;
 }
 
 .about__title {
@@ -257,12 +264,19 @@
     word-spacing: 1px;
 }
 
+.about__text_without-letter-spacing {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 23px;
+}
+
 .about__text:last-child {
     margin-top: 24px;
 }
 
 .about__column-left {
-    padding-top: 35px;
+    padding-top: 37px;
     width: 100%;
     display: flex;
     justify-content: center;
