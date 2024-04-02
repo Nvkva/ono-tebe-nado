@@ -112,27 +112,6 @@
     letter-spacing: 0;
 }
 
-.letter-spacing-extended-you-word {
-    letter-spacing: 78px;
-}
-
-.inner-letter-spacing_first {
-    letter-spacing: 30px;
-}
-
-.inner-letter-spacing_second {
-    letter-spacing: 30px;
-    margin-left: 20px;
-}
-
-.letter-spacing-e {
-    margin-left: 32px;
-}
-
-.inner-letter-spacing_third {
-    letter-spacing: 28px;
-}
-
 .cover__description {
     color: rgba(255, 255, 255, 1);
     font-size: 22px;
